@@ -1,0 +1,116 @@
+@media screen and (max-width:1050px) and (min-width:600px){
+    .main-body{
+        width:100%;
+    }
+    .main-intro-section{
+        width:93%;
+        /* margin: auto; */
+        padding: 3%;
+    }
+    .bride-info-section,.bridegroom-info-section,.location-section{
+        width:93%;
+        /* margin: auto; */
+        padding: 3%;
+    }
+    .bride-details-section{
+        padding: 3%;
+    }
+    .bride-details-section h1{
+        font-size: 1.3rem;
+    }
+    .bride-details-section h1 p{
+        margin-top: 21px;
+    }
+}
+
+@media screen and (min-width:800px) and (max-width:1050px){
+    .bride-details-section h1{
+        font-size: 1.9rem;
+    }
+    .bride-details-section h1 p{
+        margin-top: 23px;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:600px){
+    .front-page-holder{
+        left:75px;
+    }
+    .main-body{
+        width:100%;
+        text-align: center;
+    }
+    .main-intro-section{
+        width:75%;
+        /* margin: auto; */
+        padding: 5% 11%;
+    }
+    .invite-quote-of{
+        margin-bottom:5%;
+    }
+    .bride-info-section,.bridegroom-info-section,.location-section{
+        width:93%;
+        /* margin: auto; */
+        padding: 3%;
+    }
+    .bride-details-section{
+        padding: 3%;
+        line-height: 1.5;
+    }
+    .bride-details-section h1{
+        font-size: 1rem;
+    }
+    .bride-details-section h1 p{
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .front-page-holder{
+        height: 400px;
+        left:50px;
+    }
+    .front-page{
+        top:400px;
+    }
+    .main-body{
+        width:100%;
+        text-align: center;
+    }
+    .main-intro-section{
+        width:93%;
+        /* margin: auto; */
+        padding: 17% 3% 3% 3%;
+    }
+    .invite-quote-of{
+        margin-bottom:5%;
+    }
+    .bride-info-section,.bridegroom-info-section,.location-section{
+        width:93%;
+        /* margin: auto; */
+        padding: 3%;
+    }
+    .bride-info{
+        flex-direction: column;
+    }
+    .bride-image-section{
+        width:95%;
+    }
+    .bridegroom-info{
+        flex-direction: column-reverse;
+    }
+    .bride-details-section,.bridegroom-details-section{
+        width:95%;
+        padding: 3%;
+        line-height: 1.5;
+    }
+    .bride-details-section h1{
+        font-size: 1.5rem;
+    }
+    .bride-details-section h1 p{
+        margin-top: 11px;
+    }
+    .bride-details-section p{
+        font-size: 13px;
+    }
+}
